@@ -1,0 +1,14 @@
+#Terraform
+.terraform/
+*.tfstate
+.tfstate.*
+crash.log
+*.tfvars
+
+#private keys
+*.pem
+*.key
+terra-automate-key
+
+#OS files
+.DS_Store
