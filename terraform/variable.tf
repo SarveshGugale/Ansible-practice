@@ -14,14 +14,14 @@ variable "instances" {
       ami       = "ami-0b6d9d3d33ba97d99" # Ubuntu 26.04 LTS 
       user      = "ubuntu"
       os_family = "ubuntu"
-      instance_type = "t2.micro"
+      instance_type = "t3.micro"
     }
 
     "worker-ubuntu" = {
       ami       = "ami-0b6d9d3d33ba97d99" # Ubuntu 26.04 LTS 
       user      = "ubuntu"
       os_family = "ubuntu"
-      instance_type = "t2.micro"
+      instance_type = "t3.micro"
     }
     # "worker-redhat" = {
     #   ami       = "ami-00adafae70b8029d8" # Redhat 10
